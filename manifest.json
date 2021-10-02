@@ -1,8 +1,20 @@
 {
   "name":"anand pandit freelancer",
   "short_name":" anand pandit",
-  "start_url":"/?home=true",
-  "icons":[],
+  "start_url":"index.html",
+  "icons":[ {
+    "src":"https://i.ibb.co/YNJWffC/1631631012578.png",
+    "sizes":"192x192",
+    "type":"image/png",
+    "purpose":"maskable any"
+  },
+    {
+    "src":"https://i.ibb.co/YNJWffC/1631631012578.png",
+    "sizes":"512x512",
+    "type":"image/png",
+    "purpose":"maskable any"
+  }
+  ],
   "theme_color":"#000000",
   "background_color":"#FFFFFFF",
   "display":"fullscreen",
