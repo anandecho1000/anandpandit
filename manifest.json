@@ -1,0 +1,10 @@
+{
+  "name":"anand pandit freelancer",
+  "short_name":" anand pandit",
+  "start_url":"/?home=true",
+  "icons":[],
+  "theme_color":"#000000",
+  "background_color":"#FFFFFFF",
+  "display":"fullscreen",
+  "orientation":"portrait"
+}
