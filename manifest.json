@@ -1,7 +1,7 @@
 {
   "name":"anand pandit freelancer",
   "short_name":" apfree",
-  "start_url":"?home=true",
+  "start_url":"?source=pwa",
   "icons":[ {
     "src":"https://i.ibb.co/YNJWffC/1631631012578.png",
     "sizes":"192x192",
