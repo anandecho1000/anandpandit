@@ -1,12 +1,12 @@
 {
   "name": "lets go digital",
-  "short_name": "APfreelance",
-  "start_url": "index.html",
-  "icons": [
+  "short_name" : "APfree",
+  "start_url" : "index.html",
+  "icons" : [
     {
       "src": "https://i.ibb.co/889J1x5/pop.png",
       "type": "image/png",
-      "sizes": "192x192",
+      "sizes": "512x512",
       "purpose": "maskable any"
       },
     {
@@ -16,8 +16,8 @@
       "purpose": "maskable any"
       }
     ],
-    "theme_color":"#000000",
-    "background_color":"#FFFFFF",
-    "display":"fullscreen",
-    "orientation":"portrait"
+    "theme_color" : "#000000",
+    "background_color" : "#FFFFFF",
+    "display" : "fullscreen",
+    "orientation" : "portrait"
 }
