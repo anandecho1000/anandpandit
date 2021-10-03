@@ -1,25 +1,23 @@
 {
-  "short_name": "APfreelance",
   "name": "lets go digital",
+  "short_name": "APfreelance",
   "start_url": "index.html",
-  "background_color": "#FFFFFF",
-  "theme_color": "#000000",
-  "description": "Web app developer in south delhi",
-  "orientation": "portrait",
-  "display" : "fullscreen",
   "icons": [
     {
       "src": "https://i.ibb.co/HqP66KJ/1633240101036.jpg",
       "type": "image/png",
       "sizes": "192x192",
-      "purpose": "maskable only"
-    },
+      "purpose": "maskable any"
+      },
     {
       "src": "https://i.ibb.co/yPp36X9/apfree512.jpg",
       "type": "image/png",
       "sizes": "512x512",
-      "purpose": "maskable only"
-    }
-  ]
-  
+      "purpose": "maskable any"
+      }
+    ],
+    "theme_color":"#000000",
+    "background_color":"#FFFFFF",
+    "display":"fullscreen",
+    "orientation":"portrait"
 }
