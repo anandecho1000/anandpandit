@@ -2,10 +2,11 @@
   "short_name": "APfreelance",
   "name": "lets go digital",
   "start_url": "index.html",
-  "background_color": "#000000",
-  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "theme_color": "#000000",
   "description": "Web app developer in south delhi",
   "orientation": "portrait",
+  "display" : "fullscreen",
   "icons": [
     {
       "src": "https://i.ibb.co/HqP66KJ/1633240101036.jpg",
