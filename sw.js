@@ -1,4 +1,4 @@
-var cacheName='apfree_v2'
+var cacheName='apfree_v3'
 
 //calling install event
 
