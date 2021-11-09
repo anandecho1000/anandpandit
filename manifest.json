@@ -1,10 +1,10 @@
 {
   "name": "lets go digital",
-  "short_name" : "APfree",
+  "short_name" : "apfree",
   "start_url" : "index.html",
   "icons" : [
     {
-      "src": "https://i.ibb.co/889J1x5/pop.png",
+      "src": "https://falcontechnosoft.com/wp-content/uploads/2019/12/web-development.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable any"
@@ -17,7 +17,7 @@
       }
     ],
     "theme_color" : "#000000",
-    "background_color" : "#FCD34D",
+    "background_color" : "#000",
     "display" : "standalone",
-    "orientation" : "portrait"
+    "orientation" : "both"
 }
