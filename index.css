@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+:root {
+  --mode-size: 5rem;
+  --bg: #000;
+  --txt: #fff;
+}
+body {
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  background-color: var(--bg);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0'%3E%3Cstop offset='0' stop-color='%230FF'/%3E%3Cstop offset='1' stop-color='%23CF6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23F00'/%3E%3Cstop offset='1' stop-color='%23FC0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='2'%3E%3Cpath transform='translate(0 0)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='4' transform='rotate(0 800 450)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(0 0)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='4'%3E%3Cpath transform='translate(0 0)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='8' transform='rotate(0 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='rotate(0 1400 132)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: var(--bg);
+  transition: all 0.4s;
+  z-index: 1;
+}
+.mode-icon {
+  background: var(--bg);
+  border: none;
+  /* box-shadow: 0 0 5px rgba(0,0,0,.1); */
+  margin: 1rem;
+  padding: 0.1rem;
+  border-radius: 100%;
+  width: var(--mode-size);
+  height: var(--mode-size);
+  transition: 0.3s;
+  font-size: 1.5rem;
+  color: var(--txt);
+}
+.hidden {
+  display: none;
+}
+.main-heading {
+  font-size: clamp(2rem, 3rem, 4rem);
+  color: var(--txt);
+  background: var(--bg);
+  border-radius: 10px;
+  opacity: 0.8 !important;
+  height: 50vh;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav a {
+  color: var(--txt);
+  font-size: 1.5rem;
+  margin: 1rem;
+  text-decoration: none;
+}
+.top-nav {
+  overflow: hidden;
+}
+
+.menu-icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .top-nav a:not(:first-child) {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .top-nav.responsive a {
+    display: block;
+  }
+}
+
+footer {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg);
+  color: var(--txt);
+  flex-wrap: wrap;
+}
+footer svg {
+  margin: 1rem;
+}
+.glass {
+  background: var(--bg);
+  opacity: 0.4;
+  width: 100%;
+}
+.center {
+  text-align: center;
+}
+
+.wfull {
+  width: 100%;
+}
+.bg {
+  background: var(--bg);
+}
+.txt {
+  color: var(--txt);
+}
+.short-about {
+  opacity: 0.8 !important;
+  width: 70vw;
+  font-size: clamp(1rem, 1.5rem, 2rem) !important;
+}
+.marker-font {
+  font-family: "Permanent Marker", cursive;
+}
+#ai-pic {
+  width: 100%;
+  background: var(--bg);
+  text-align: center;
+}
+#ai-pic img {
+  border-radius: 100%;
+  object-fit: scale-down !important;
+  max-width: 80vw;
+  mix-blend-mode: difference;
+}
+footer a {
+  text-decoration: none;
+  color: var(--txt);
+  border-radius: 10rem;
+  width: 5rem;
+  height: 5rem;
+}
+.righteous-font {
+  font-family: "Righteous", cursive;
+}
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-wrap a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg);
+  border-radius: 0;
+  width: 40%;
+  height: 2rem !important;
+  text-align: center;
+}
